@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>Provide a dynamic mechanic for class attributes using jQuery logic in attribute description</name>
+        <version>1.0</version>
+        <copyright>Copyright (C) 2019 Steve Cohen.</copyright>
+        <license>GNU General Public License v2.0</license>
+        <info_url>https://github.com/stevecohenfr/scdynamicezclass</info_url>
+    </metadata>
+</software>
