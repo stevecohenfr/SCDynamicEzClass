@@ -4,6 +4,6 @@
 DesignExtensions[]=scdynamicezclass
 
 [JavaScriptSettings]
-BackendJavaScriptList[]=dynamicattributes.js
+BackendJavaScriptList[]=SCDynamicEzClass.class.js
 
 */

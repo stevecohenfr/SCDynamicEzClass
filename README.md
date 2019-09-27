@@ -20,7 +20,26 @@ This plugin does **not** override any template of eZ Publish backend. It only in
 ## Usage
 
 Your conditions have to be written in the **description** field of your attribute between `{cond}{/cond}`. The condition will not be shown in the description when editing an Object. You can write your description after the closing tag `{/cond}`
+
 All attributes are accessible as jQuery object by their identifier.
+
+**Hide/show attribute depending on other attribute:**
+
+```
+{cond}title.val().startsWith("Special"){/cond}This attribute appears because your title starts with "Special"
+```
+
+**Hide/show attribute depending on pure JavaScript condition**
+```
+{cond}(new Date()).getFullYear() === "2020"{/cond}This attributes appears because current year is 2020
+```
+
+**Just hide an attribute**
+
+```
+{cond}false{/cond}This attribute will never been shown
+```
+
 
 ## Exemple
 
